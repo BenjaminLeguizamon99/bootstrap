@@ -70,3 +70,21 @@
     background-size: cover;
     height: 85vh;
 }
+@media screen and (max-width: 768px) { /*Hago esta media query para acomodar el footer y las tarjetas de titulos y certificaciones. Tambien le doy un poco de padding a las imagenes de la galeria para que no queden juntas*/
+    .titulos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .footer-responsive {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .galeria {
+        padding: 10px;
+    }
+}
